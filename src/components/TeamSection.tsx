@@ -4,24 +4,29 @@ import { Button } from "@/components/ui/button";
 export const TeamSection = () => {
   const team = [
     {
-      name: "Dr. Sarah Chen",
-      role: "CEO & Co-Founder",
-      bio: "Former NASA engineer with 15 years in satellite systems.",
+      name: "Ashiqur Rahman",
+      role: "Team Lead & Vision",
+      bio: "Leads project direction and strategy. Coordinates across technical and business tracks to ensure OrbitX is both innovative and practical.",
     },
     {
-      name: "Marcus Rodriguez",
-      role: "CTO & Co-Founder",
-      bio: "AI researcher specializing in on-device machine learning.",
+      name: "Abdullah Ash Shafi",
+      role: "Technical Lead (AI & Systems)",
+      bio: "Specializes in onboard AI/LLM integration and system architecture. Focuses on turning raw orbital data into actionable insights.",
     },
     {
-      name: "Dr. Elena Volkov",
-      role: "Chief Scientist",
-      bio: "PhD in Aerospace Engineering, 20+ publications in orbital mechanics.",
+      name: "Md Golam Rabbani",
+      role: "Business & Market Development",
+      bio: "Works on business model design, customer segments, and go-to-market strategy. Ensures commercial viability and scalability.",
     },
     {
-      name: "James Park",
-      role: "VP of Operations",
-      bio: "10 years managing commercial satellite deployments.",
+      name: "Md. Badruddin Tasnim",
+      role: "Operations & Sustainability",
+      bio: "Oversees orbital operations, debris mitigation, and compliance with international guidelines (ODPO, DAS). Ensures sustainability is built into OrbitX.",
+    },
+    {
+      name: "Ruhul Amin Pappo",
+      role: "Prototype & UI/UX",
+      bio: "Responsible for interactive demos, user interface design, and storytelling. Translates technical features into engaging, human-friendly experiences.",
     },
   ];
 
@@ -35,7 +40,7 @@ export const TeamSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 max-w-7xl mx-auto">
           {team.map((member, index) => (
             <div 
               key={member.name}
