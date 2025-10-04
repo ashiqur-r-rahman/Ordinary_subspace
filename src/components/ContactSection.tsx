@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { toast } from "sonner";
 
 export const ContactSection = () => {
@@ -33,8 +33,8 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:contact@orbitx.space" className="text-sm text-muted-foreground hover:text-primary">
-                      contact@orbitx.space
+                    <a href="mailto:2204034@student.ruet.ac.bd" className="text-sm text-muted-foreground hover:text-primary">
+                      2204034@student.ruet.ac.bd
                     </a>
                   </div>
                 </div>
@@ -44,20 +44,9 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Phone</div>
-                    <a href="tel:+1-555-ORBITX" className="text-sm text-muted-foreground hover:text-secondary">
-                      +1 (555) ORBIT-X
+                    <a href="tel:+8801778432800" className="text-sm text-muted-foreground hover:text-secondary">
+                      +880 1778 432 800
                     </a>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
-                    <MapPin className="h-5 w-5 text-accent" />
-                  </div>
-                  <div>
-                    <div className="font-semibold mb-1">Location</div>
-                    <div className="text-sm text-muted-foreground">
-                      Silicon Valley, CA
-                    </div>
                   </div>
                 </div>
               </div>
